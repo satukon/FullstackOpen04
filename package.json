@@ -1,0 +1,30 @@
+{
+  "name": "blogilista",
+  "version": "1.0.0",
+  "description": "Osion 4 tehtävät",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satukon/FullstackOpen04.git"
+  },
+  "author": "smk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satukon/FullstackOpen04/issues"
+  },
+  "homepage": "https://github.com/satukon/FullstackOpen04#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

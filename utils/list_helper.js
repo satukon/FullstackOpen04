@@ -24,7 +24,6 @@ const favouriteBlog = (blogs) => {
 
 const mostBlogs = (blogs) => {
   const grouppedByAuthor = lodash.groupBy(blogs, 'author')
-  console.log(grouppedByAuthor)
 
   let authorWithMostBlogs = null
   let maxBlogs = null
